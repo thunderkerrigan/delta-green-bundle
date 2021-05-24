@@ -1,15 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App/App'
+import Main from './App/Main'
 import reportWebVitals from './reportWebVitals'
 import { StrictMode } from 'react'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
+import App from './App/App'
+import './Fonts/redacted/fonts.css'
 
 ReactDOM.render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+      <Route  path='/' component={App}/>
+      <Main />
     </BrowserRouter>
   </StrictMode>,
   document.getElementById('root'),

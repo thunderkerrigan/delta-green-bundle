@@ -1,6 +1,6 @@
 {
     "name": "delta-green",
     "private": true,
-    "workspaces":["delta-green-server", "delta-green-core"]
+    "workspaces":["delta-green-server", "delta-green-core", "delta-green-front"]
   }
   

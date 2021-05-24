@@ -4,3 +4,6 @@
 [submodule "delta-green-core"]
 	path = delta-green-core
 	url = ssh://git@github.com:thunderkerrigan/delta-green-core.git
+[submodule "delta-green-front"]
+	path = delta-green-front
+	url = ssh://git@github.com:thunderkerrigan/delta-green-front.git
