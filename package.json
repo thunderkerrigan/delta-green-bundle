@@ -5,5 +5,9 @@
     "delta-green-server",
     "delta-green-front",
     "delta-green-core"
-  ]
+  ],
+  "scripts": {
+    "server": "yarn workspace delta-green-server",
+    "front": "yarn workspace delta-green-front"
+  }
 }
