@@ -1,13 +1,9 @@
 {
   "name": "delta-green",
-  "private": true,
+  "packageManager": "yarn@3.2.1",
   "workspaces": [
+    "delta-green-core",
     "delta-green-server",
-    "delta-green-front",
-    "delta-green-core"
-  ],
-  "scripts": {
-    "server": "yarn workspace delta-green-server",
-    "front": "yarn workspace delta-green-front"
-  }
+    "delta-green-front"
+  ]
 }
